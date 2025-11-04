@@ -1,0 +1,81 @@
+.account-container {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 80px;
+}
+
+.account-details {
+  width: 80%;
+  max-width: 800px;
+  margin-top: 50px;
+}
+
+.account-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 0.5px solid #d0d6dc;
+}
+
+.account-info {
+  margin-top: 20px;
+}
+
+.account-section {
+  margin: 25px 0;
+}
+
+.label {
+  color: #64748b;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.value {
+  font-size: 17px;
+  color: #1e293b;
+}
+
+.password {
+  color: #64748b;
+  margin-top: 4px;
+}
+
+.tag {
+  background-color: #e5e7eb;
+  font-size: 12px;
+  border-radius: 4px;
+  padding: 2px 6px;
+  margin-left: 8px;
+}
+
+.logout-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.logout-btn {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.logout-btn:hover {
+  background-color: #b20710;
+}

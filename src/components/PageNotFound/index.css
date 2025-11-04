@@ -1,0 +1,38 @@
+.pagenotfound {
+  background-image: url("https://res.cloudinary.com/dquu2hthg/image/upload/v1761986525/93955cfc4c28572ced55c420bbcd234b14c68813_r8xpk7.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  backdrop-filter: brightness(0.8);
+}
+
+.pagenotfound h1 {
+ font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.pagenotfound p {
+  max-width: 500px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.pagenotfound button {
+  background-color: #FFFFFF;
+  color: black;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+

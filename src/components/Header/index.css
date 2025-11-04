@@ -1,0 +1,124 @@
+/* style.css */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  background-color: #0b0b10;
+  color: white;
+}
+
+/* Header container */
+.header {
+  width: 100vw;
+  padding: 15px 60px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header-right {
+  margin-right: 0; /* remove this! */
+}
+
+
+/* Left section */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* MOVIES logo */
+.logo {
+  color: #E50014;
+  padding: 5px 10px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 3px;
+}
+.logo:hover{
+  cursor: pointer;
+}
+
+/* Navigation links */
+.nav-links a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 15px;
+  margin-right: 20px;
+  transition: color 0.3s;
+}
+
+.nav-links Link:hover {
+  color: #fff;
+}
+
+/* Right section */
+.header-right {
+  /* margin-right: 170px; */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Search icon */
+.icon {
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+  filter: invert(1);
+  transition: opacity 0.3s;
+  padding-right: 10px;
+}
+.search-icon{
+  color: #FFFFFF  ;
+  height: 10px;
+}
+.icon:hover {
+  opacity: 0.8;
+}
+
+/* Profile image */
+.profile-img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  
+}
+.input-bar{
+  width: 264px;
+  margin-top: 20px;
+  height: 50px;
+  border: solid;
+  border-radius: 5px;
+  border-color: white;
+  padding-inline-start: 5px;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid #666;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: rgba(255,255,255,0.02);
+}
+
+.search-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 260px; /* tweak */
+}
+
+.search-icon-inside {
+  width: 18px;
+  cursor: pointer;
+  filter: invert(1);
+}
